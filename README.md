@@ -45,6 +45,8 @@ Code Snippet:
 ```python
 sns.histplot(df['Price'], bins=20, kde=True, color='blue')
 ```
+![image](https://github.com/user-attachments/assets/870ca5c4-d2e3-4365-94ff-432c1195e8b9)
+
 # 5. Price vs. Product Name Length
 An interesting analysis we conducted was to check if there was any correlation between the length of the product name and its price. We calculated the length of each product name and plotted it against the price. 
 Code Snippet:
