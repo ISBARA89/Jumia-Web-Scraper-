@@ -49,6 +49,7 @@ sns.histplot(df['Price'], bins=20, kde=True, color='blue')
 
 # 5. Price vs. Product Name Length
 An interesting analysis we conducted was to check if there was any correlation between the length of the product name and its price. We calculated the length of each product name and plotted it against the price. 
+
 Code Snippet:
 ```python
 df['Name Length'] = df['Product Name'].apply(len)
@@ -59,6 +60,8 @@ Code Snippet:
 ```python
 sns.scatterplot(data=df, x='Name Length', y='Price')
 ```
+![image](https://github.com/user-attachments/assets/c66fee19-ef80-428a-a1b9-d1d95af32b3c)
+
 # 6. Top 5 Most Expensive Phones
 We also extracted the top 5 most expensive smartphones to see which models were the priciest on Jumia.
 Code Snippet:
